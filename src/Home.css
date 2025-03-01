@@ -1,0 +1,70 @@
+#div{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+#one{
+    display: flex;
+    box-sizing: border-box;
+    width: 90vw;
+    height: 20vh;
+    justify-content: space-between;
+    background: linear-gradient(to left,rgb(22, 22, 229),rgb(97, 97, 231),rgb(158, 158, 231));
+    margin-bottom: 3vh;
+    padding: 25px;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid blue;
+
+}
+#two{
+    width: 90vw;
+    height: 100vh;
+    background: linear-gradient(to left,rgb(22, 22, 229),rgb(97, 97, 231),rgb(158, 158, 231));
+    flex-direction: row;
+    overflow-y: scroll;
+    justify-content:space-around;
+    gap: 20px;
+    border-radius:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px dashed rgba(58, 46, 46, 0.146);
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+#nav{
+    display: flex;
+    width: fit-content;
+    height:50%;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+button{
+    width:max-content;
+    height: max-content;
+}
+#img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.para{
+    margin-right: 10px;
+    font-size: 20px;
+}   
+#three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    grid-gap: 20px;
+
+}
