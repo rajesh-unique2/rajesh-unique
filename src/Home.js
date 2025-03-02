@@ -30,6 +30,7 @@ const Home = () => {
 
   
   return (
+    
     <div id='div'>
         <div id='one'>
           <div id='image'>

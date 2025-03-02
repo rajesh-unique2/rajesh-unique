@@ -1,4 +1,4 @@
-#about{
+/* #about{
     width: 400px;
     display: flex;
     justify-content: center;
@@ -24,7 +24,42 @@
     align-items: flex-start;
 }
 .h{
-    display: inline;
-    padding: 0;
-    margin: 0;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+} */
+.bike{
+   width: max-content;
+   height:200px;
+}
+   
+.hes{
+    
+white-space: pre-wrap; /* Ensures text wraps onto the next line */
+word-wrap: break-word; /* Breaks long words */
+overflow-wrap: break-word; /* Breaks long words */
+max-width: 300px;
+}
+.h{
+   display: inline;
+}
+#maincontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:250px;
+    height: max-content;
+}
+#about{
+    max-width: 300px;
+    box-sizing: content-box;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(-45deg,rgb(138, 191, 162),rgb(85, 203, 85));
+}
+#ul{
+    list-style-type: none;
 }

@@ -32,10 +32,12 @@ const Atoc = () => {
                   <h2>{data.title}</h2>
                   <p id="price">${data.price}</p>
                   <div id='maincontent'>
-                    <p ><h3 className='h'>Brand : </h3>{data.brand}</p>
-                    <p ><h3 className='h'>Category : </h3>{data.category}</p>
-                    <p><h3>Size</h3>Width={data.dimensions.width} Height={data.dimensions.height}</p>
-                    {/* <p><h3 className='h des'>Description</h3>{data.description}</p> */}
+                    <ul id='ul'>
+                    <li><p ><h3 className='h'>Brand : </h3>{data.brand}</p></li>
+                    <li> <p ><h3 className='h'>Category : </h3>{data.category}</p></li>
+                    <li><p ><h3 className='h'>Rating : </h3>{data.rating}</p></li>
+                    <li><p><h3 className='h des'>Description : </h3>{data.description}</p></li>
+                    </ul>
                   </div>
                   
                 </div>
